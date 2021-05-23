@@ -20,25 +20,27 @@
             
 
             <!-- navbar -->
-            <nav class="navbar navbar-expand-md   bg-custom-color">
-                 
-                <div class="container">
-                     
-                     <img class="logo-play" src="./img/play_logo.svg" alt=""> 
-                     <a class="navbar-brand" href="..">Giochi<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
-                     <a class="navbar-brand" href="#">Hardware<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
-                     <a class="navbar-brand" href="#">Servizi<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
-                     <a class="navbar-brand" href="#">Novità<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
-                     <a class="navbar-brand" href="#">Fai acquisti<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
-                     <a class="navbar-brand" href="#">Supporto<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+            <nav class="navbar d-flex sticky-top navbar-expand-md justify-content-between  bg-custom-color">
+                 <div class="section-right d-flex">
+                     <img class="logo-play" src="./img/play_logo.svg" alt="logo"> 
+                     <section class="d-none d-lg-flex align-items-center">
+                        <a class="navbar-brand" href="..">Giochi<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                        <a class="navbar-brand" href="#">Hardware<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                        <a class="navbar-brand" href="#">Servizi<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                        <a class="navbar-brand" href="#">Novità<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                        <a class="navbar-brand" href="#">Fai acquisti<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                        <a class="navbar-brand" href="#">Supporto<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
+                     </section>
+                </div>  
+                  <div class="left d-none d-lg-flex ">
                      <a class="navbar-brand" href="#">My PLayStation<span class="icons"> <i class="fas fa-angle-down"></i></span></a>
                      <form><input type="button"class="button-nav" value="Accedi" class="button-send"/> </form>
-                     <i class="fas fa-search"></i>
-                  
-                   
+                     <div><i class="fas fa-search"></i></div>
+                  </div>
+                 
+                   <div class="menu-nav d-flex d-lg-none">
+                     <i class="fas fa-bars"></i>
                    </div>
-                 </div>
-                </div>
               </nav>
 
 
@@ -65,47 +67,35 @@
 
 <!-- inizio sezione  (sei) immagini -->
 
-<div class="container-2">
+<div class="container-fluid cont-minigame">
   <div class="row"> 
        <div class="list-videogame">
-            <div class="col-6 col-sm-2 col-xxl-2 ">
-               <div class="img-content">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                  <img class="hover-list" src="./img/returnal-listing-thumb-01-ps5.jpg" width="120" height="80px" alt=""> 
-               </div>
             </div>
 
-             <div class="col-6 col-sm-2  col-xxl-2">
-               <div class="img-content">
+             <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                  <img class="hover-list" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" width="120" height="80px" alt="">
-               </div>
             </div>
      
 
-            <div class="col-6 col-sm-2 col-xxl-2">
-               <div class="img-content">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                   <img class="hover-list" src="./img/returnal-listing-thumb-01-ps5.jpg" width="120" height="80px" alt="">
-               </div>
             </div>
      
 
-           <div class="col-6 col-sm-2 col-xxl-2">
-              <div class="img-content">
+           <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                 <img class="hover-list" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"  width="120" height="80px" alt="">
-              </div>
             </div>
           
 
-          <div class="col-6 col-sm-2 col-xxl-2">
-              <div class="img-content">
-                  <img class="hover-list" src="./img/returnal-listing-thumb-01-ps5.jpg" width="120" height="80px" alt="">
-              </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <img class="hover-list" src="./img/returnal-listing-thumb-01-ps5.jpg" width="120" height="80px" alt="">
           </div>
          
 
-          <div class="col-6 col-sm-2 col-xxl-2">
-              <div class="img-content">
+          <div class="col-6 col-sm-4  col-md-4 col-lg-2">
                  <img class="hover-list" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" width="120" height="80px" alt="">
-              </div>
           </div>
      </div>
   </div>
@@ -348,7 +338,7 @@
    </div>
 
    <div class=" d-none d-lg-block col-6 col-lg-6">
-     <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" height="270" alt="">
+     <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" height="340" alt="">
    </div>
 
  </section>
@@ -398,7 +388,7 @@
       </div>
   </section> 
 
-  <section class="row justify-content-center">
+  <section class="row justify-content-center marg-socialm">
       <div class="col-5 col-sm-1">
           <img id="img-marg" src="./img/twitter.jpg" height="100" alt="">
       </div>
@@ -412,9 +402,80 @@
         <img id="img-marg" src="./img/youtube.png" height="100" alt="">
     </div>
   </section>
-
-
 </main>
-<footer></footer>
+
+
+<footer container-fluid>
+
+<section class="row">
+<div class="col-6 content-footer">
+    <img id="logo-play-ft" src="./img/ps-footer.svg" width="" height="70" alt="logo"> 
+    <div id="globe"><i class="fas fa-globe"></i> Country / Region: Italy</div>
+    
+</div>
+<div class="col-6 content-footer">
+    <div class="row list-footer">
+     
+     <div class="col-4 col-md-4">
+        <ul class="text-link">
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+        </ul>
+      </div>
+ 
+      <div class="col-4 col-md-4" >
+        <ul class="text-link">
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+          <li>Link footer n</li>
+        </ul>
+      </div>
+ 
+      <div class="col-4 col-md-4" >
+        <ul class="text-link">
+           <li>Link footer n</li>
+           <li>Link footer n</li>
+           <li>Link footer n</li>
+        </ul>
+      </div>
+   </div>
+</div>
+
+<!-- section 2 footer -->
+   <section>
+       <div class="container-fluid cont-ft-2">
+          <img src="./img/sie-logo.svg" width="100">
+          <p>Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a href=""  style="color:#ffffff">Maggiori info</a></p>
+        </div>
+   </section>
+
+
+
+
+
+
+
+        
+       </aside>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+   
+ 
+</footer>
 </body>
 </html>

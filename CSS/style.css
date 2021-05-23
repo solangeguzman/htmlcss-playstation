@@ -37,6 +37,13 @@
     background-color: black;
     color: white;
     border-radius: 15px 15px 15px 15px;
+   
+}
+
+.menu-nav{
+    border: 1px solid rgb(206, 202, 202);
+    padding: 4px;
+    color: rgb(104, 100, 100);
 }
 /* ------------ */
 
@@ -81,20 +88,27 @@
 
 /* ------ */
 
-/* container-2 */
-
+/* container-2  (6) immagini*/
+.cont-minigame{
+    width: 950px;
+   
+}
 .list-videogame{
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    margin: 40px;
-    margin-right: 35px;
+    flex-grow: 1; 
 }
 
-.img-content{
-    width: 120px; 
-}
 
+@media all and (min-width="375px"){
+     
+    .list-videogame{
+        width: 250px;
+        
+    }
+
+    
+}
 
 .list-videogame img{
     border: white 2px solid;
@@ -380,8 +394,8 @@ h4{
 /* bg-plus-monthly */
 
 .bg-plus-monthly{
-   
     background-color: rgb(158, 152, 152);
+    height: 340px;
 }
 
 .text-plus{
@@ -422,6 +436,7 @@ h4{
 
 .bg-Now{
     background-color: rgb(7, 7, 73);
+    height: 350px;
 }
 
 .play-now{
@@ -433,9 +448,9 @@ h4{
 }
 
 .button-now{
-     background-color: white;
-     border-radius: 15px 15px 15px 15px;
-     border: white solid 1px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    border: white solid 1px;
 }
 
 /* social media */
@@ -447,4 +462,55 @@ h4{
 
 #img-marg{
     margin: 10px;
+}
+
+.marg-socialm{
+    margin-bottom: 30px;
+}
+
+
+/* inizio footer */
+
+footer{
+    background-color: rgb(32, 32, 138); 
+}
+
+.list-footer{
+  
+  width: 620px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  font-size: 14px;
+  
+}
+
+.text-link{
+    display: inline-block;
+    color: white;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    
+    }
+
+.content-footer{
+    margin-top: 30px;
+   
+}
+
+.cont-ft-2 > p{
+    color: white;
+    width: 520px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#globe{
+    color: white;
+   
+    font-size: 16px;
+    margin: 30px;
 }
