@@ -426,20 +426,23 @@ h4{
 
 footer{
     background-color: rgb(32, 32, 138); 
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
+
+.cont-ft{
+    margin-top: 10px;
+}
+
+
 .list-footer{
-  
-  width: 620px;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
   font-size: 14px;
-  
 }
 
 .text-link{
+   
     display: inline-block;
     color: white;
     justify-content: center;
@@ -461,6 +464,8 @@ ul {
     text-align: left;
     font-size: 13px;
 }
+
+
 
 #globe{
     color: white;
