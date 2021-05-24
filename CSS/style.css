@@ -431,6 +431,7 @@ footer{
 .list-footer{
   
   width: 620px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
