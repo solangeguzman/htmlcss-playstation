@@ -242,6 +242,16 @@ h4{
  
 }
 
+
+@media all and (max-width:575px){
+    .img-container-6{
+             font-size: 10px;
+             width: 100px;
+             
+    }
+
+}
+
 /* ----- */
 
 /* contenuto-play-4 */
@@ -421,7 +431,6 @@ h4{
     margin-bottom: 30px;
 }
 
-
 /* inizio footer */
 
 footer{
@@ -472,4 +481,24 @@ ul {
    
     font-size: 16px;
     margin: 30px;
+}
+
+
+@media all and (max-width:575px){
+    ul{
+             font-size: 10px;
+             
+    }
+
+    .cont-ft-2>img{
+      margin-left: 30px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .cont-ft-2>p{
+        font-size: 10px;
+        margin-left: 30px;
+        width: 320px;
+    }
 }
